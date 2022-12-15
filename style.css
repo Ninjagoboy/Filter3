@@ -1,0 +1,23 @@
+body{
+    background-image: url("background.jpg");
+
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px blue;}
+    to{box-shadow: 1px 1px 30px yellow;}
+}
+
+h3{
+    font-size: 25px !important;
+    width: 150px;
+}
+button{
+    font-size: 20px;
+
+}
